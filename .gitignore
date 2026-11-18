@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Локальные настройки
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Сборка и артефакты
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Скомпилированные ресурсы
+app/build/
+app/release/
