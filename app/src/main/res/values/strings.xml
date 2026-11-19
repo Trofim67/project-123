@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Контроль посещаемости</string>
+
+    <!-- Главный экран -->
+    <string name="subtitle_main">Учёт посещаемости студентов</string>
+    <string name="btn_students">Студенты</string>
+    <string name="btn_attendance">Отметить посещаемость</string>
+    <string name="btn_statistics">Статистика</string>
+
+    <!-- Студенты -->
+    <string name="title_students">Студенты</string>
+    <string name="btn_add_student">Добавить студента</string>
+    <string name="dialog_add_title">Новый студент</string>
+    <string name="hint_first_name">Имя</string>
+    <string name="hint_last_name">Фамилия</string>
+    <string name="hint_group">Учебная группа</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_delete">Удалить</string>
+    <string name="delete_confirm_title">Удалить студента?</string>
+    <string name="delete_confirm_message">Студент и его отметки посещаемости будут удалены.</string>
+    <string name="error_empty_fields">Заполните все поля</string>
+    <string name="error_invalid_name">Имя и фамилия должны содержать только буквы</string>
+    <string name="error_invalid_group">Некорректная учебная группа</string>
+    <string name="msg_student_added">Студент добавлен</string>
+    <string name="msg_student_deleted">Студент удалён</string>
+    <string name="empty_students">Список студентов пуст. Добавьте первого студента.</string>
+    <string name="group_prefix">Группа: %1$s</string>
+
+    <!-- Посещаемость -->
+    <string name="title_attendance">Отметка посещаемости</string>
+    <string name="hint_subject">Дисциплина / тема</string>
+    <string name="hint_date">Дата (ДД.ММ.ГГГГ)</string>
+    <string name="hint_group_filter">Группа (пусто — все студенты)</string>
+    <string name="btn_start_attendance">Начать отметку</string>
+    <string name="btn_save_attendance">Сохранить отметки</string>
+    <string name="msg_attendance_saved">Отметки сохранены</string>
+    <string name="error_no_subject">Укажите дисциплину</string>
+    <string name="error_no_date">Укажите дату</string>
+    <string name="error_no_students">Нет студентов для отметки. Сначала добавьте студентов.</string>
+    <string name="error_no_status">Укажите статус для каждого студента</string>
+
+    <!-- Статистика -->
+    <string name="title_statistics">Статистика</string>
+    <string name="label_total_lessons">Занятий</string>
+    <string name="label_present">Присутствовал</string>
+    <string name="label_absent">Отсутствовал</string>
+    <string name="label_late">Опоздал</string>
+    <string name="btn_show_history">Показать историю</string>
+    <string name="empty_statistics">Нет данных. Отметьте посещаемость хотя бы раз.</string>
+    <string name="history_title">История посещаемости</string>
+</resources>
